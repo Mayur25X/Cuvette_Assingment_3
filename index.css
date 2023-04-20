@@ -1,0 +1,171 @@
+body {
+  background: #d6bcff;
+}
+.container {
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 100px auto;
+
+  width: fit-content;
+  background: #fff;
+  padding: 10px;
+  border-radius: 21px;
+}
+.left,
+.right {
+  padding: 10px;
+  margin: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 367px;
+  height: 370px;
+  justify-content: space-evenly;
+}
+.right {
+  background: #9c60ff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  width: 367px;
+  height: 370px;
+  justify-content: space-evenly;
+}
+.personCount {
+  width: 360px;
+  height: 43px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(182, 172, 196, 0.53);
+  border-radius: 3px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.tipbuttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px;
+}
+
+label {
+  font-family: "Inconsolata";
+  /* font-style: normal; */
+  font-weight: 800;
+  /* font-size: 15px; */
+  line-height: -35px;
+  letter-spacing: 0.045em;
+}
+.onlybutton {
+  display: flex;
+}
+.tip {
+  width: 106px;
+  margin: 5px 5px;
+  height: 44px;
+  background: #9c60ff;
+  border-radius: 4px;
+  font-family: "Monospaceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+#incrementButton {
+  display: flex;
+  height: 43px;
+  background: #ffffff;
+  border: 1px solid #8e8e8e;
+  border-radius: 3px;
+}
+.icon {
+  background: #ffffff;
+  /* top: 607px; */
+  font-family: "Monospaceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  width: 45px;
+  height: 45px;
+}
+p {
+  margin: 15px;
+  font-family: "Inconsolata";
+  /* font-style: normal; */
+  font-weight: 800;
+  /* font-size: 15px; */
+  line-height: -35px;
+  letter-spacing: 0.045em;
+}
+
+#amount {
+  text-align: right;
+  font-family: "Monospaceland";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  align-items: flex-end;
+  padding: 10px 30px;
+  display: inline-flex;
+  line-height: 26px;
+  text-align: -webkit-right;
+  letter-spacing: 0.01em;
+  color: #9c60ff;
+  left: 273px;
+  top: 323px;
+  background: rgba(182, 172, 196, 0.53);
+  border-radius: 3px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#reset {
+  width: 367px;
+  height: 43px;
+  background: #c39fff;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.19em;
+
+  color: #9c60ff;
+}
+
+#amounth1 {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.045em;
+
+  color: #f3e4ff;
+}
+#amounth2 {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.045em;
+
+  color: #c39fff;
+}
