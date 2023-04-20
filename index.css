@@ -169,3 +169,16 @@ p {
 
   color: #c39fff;
 }
+.heading{
+      margin: auto auto;
+    flex-wrap: wrap;
+    align-items: center;
+ 
+    width: fit-content;
+    height: 10px;
+  
+    font-size: 21px;
+   
+    letter-spacing: 0.625em;
+    color: #6F3CFF;
+}
